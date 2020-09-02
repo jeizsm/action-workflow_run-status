@@ -8,6 +8,7 @@ on:
 
 jobs:
   post-test-matrix:
+    name: Post test matri ${{ matrix.test }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
